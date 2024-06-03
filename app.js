@@ -175,7 +175,7 @@ document.addEventListener("DOMContentLoaded", () => {
             trigger: ".hero",
             start: "top top",
             end: "bottom top",
-            toggleActions: "restart pause resume reset",
+            toggleActions: "play none none none",
             once: true,
         }
     });
