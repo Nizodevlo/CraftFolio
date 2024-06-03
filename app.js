@@ -299,8 +299,12 @@ document.addEventListener("DOMContentLoaded", () => {
             start: "top top",
             end: "bottom top",
             scrub: 2,
-            
-            toggleActions: "play pause resume reset"
+            pin: true,
+            pinSpacing: true,
+            toggleActions: "play pause resume reset",
+            onEnd: function() {
+                pricingTimeline.pause(); // Pause the timeline when it reaches the end
+            }
         }
     });
 
