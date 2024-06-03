@@ -298,9 +298,6 @@ document.addEventListener("DOMContentLoaded", () => {
             trigger: ".pricing",
             start: "top top",
             end: "bottom top",
-            scrub: 2,
-            pin: true,
-            pinSpacing: true,
             toggleActions: "play pause resume reset"
         }
     });
