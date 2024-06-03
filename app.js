@@ -178,10 +178,13 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 1,
             pin: true,
             pinSpacing: true,
-            toggleActions: "play reverse none reverse",
+            toggleActions: "restart pause resume reset"
         }
     });
 
+    heroTimeline.from(".hero h1", { y: -100, opacity: 0, duration: 2 });
+    heroTimeline.from(".hero p", { y: 100, opacity: 0, duration: 2 }, "-=1");
+    heroTimeline.from(".hero img", { x: 100, opacity: 0, duration: 2 }, "-=5");
     heroTimeline.to(".hero", { backgroundColor: "black", duration: 2 });
 
 
@@ -216,7 +219,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 2,
             pin: true,
             pinSpacing: true,
-            toggleActions: "play reverse none reverse",,
+            toggleActions: "restart pause resume reset",
         }
     });
 
@@ -256,7 +259,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 1,
             pin: true,
             pinSpacing: true,
-            toggleActions: "play reverse none reverse",
+            toggleActions: "restart pause resume reset"
         }
     });
 
@@ -301,7 +304,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 1,
             pin: true,
             pinSpacing: true,
-            toggleActions: "play reverse none reverse",
+            toggleActions: "play pause resume reset"
         }
     });
 
@@ -345,7 +348,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 1,
             pin: true,
             pinSpacing: true,
-            toggleActions: "play reverse none reverse",
+            toggleActions: "restart pause resume reset"
         }
     });
     
