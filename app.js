@@ -175,13 +175,16 @@ document.addEventListener("DOMContentLoaded", () => {
             trigger: ".hero",
             start: "top top",
             end: "bottom top",
-            scrub: 2,
+            scrub: 1,
             pin: true,
             pinSpacing: true,
-            toggleActions: "play none none reverse"
+            toggleActions: "restart pause resume reset"
         }
     });
 
+    heroTimeline.from(".hero h1", { y: -100, opacity: 0, duration: 2 });
+    heroTimeline.from(".hero p", { y: 100, opacity: 0, duration: 2 }, "-=1");
+    heroTimeline.from(".hero img", { x: 100, opacity: 0, duration: 2 }, "-=5");
     heroTimeline.to(".hero", { backgroundColor: "black", duration: 2 });
 
 
@@ -216,7 +219,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 2,
             pin: true,
             pinSpacing: true,
-            toggleActions: "play pause resume reset",
+            toggleActions: "restart pause resume reset",
         }
     });
 
@@ -253,10 +256,10 @@ document.addEventListener("DOMContentLoaded", () => {
             trigger: ".experience",
             start: "top top",
             end: "bottom top",
-            scrub: 2,
+            scrub: 1,
             pin: true,
             pinSpacing: true,
-            toggleActions: "play pause resume reset",
+            toggleActions: "restart pause resume reset"
         }
     });
 
@@ -298,10 +301,10 @@ document.addEventListener("DOMContentLoaded", () => {
             trigger: ".pricing",
             start: "top top",
             end: "bottom top",
-            scrub: 2,
+            scrub: 1,
             pin: true,
             pinSpacing: true,
-            toggleActions: "play pause resume reset",
+            toggleActions: "play pause resume reset"
         }
     });
 
@@ -342,10 +345,10 @@ document.addEventListener("DOMContentLoaded", () => {
             trigger: ".contact",
             start: "top top",
             end: "bottom top",
-            scrub: 2,
+            scrub: 1,
             pin: true,
             pinSpacing: true,
-            toggleActions: "play pause resume reset",
+            toggleActions: "restart pause resume reset"
         }
     });
     
