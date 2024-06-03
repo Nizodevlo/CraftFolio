@@ -170,18 +170,19 @@ document.addEventListener("DOMContentLoaded", () => {
     
 
     // Create a timeline for the Hero Section
-    let heroAnimationPlayed = false;
-
-    window.addEventListener("scroll", () => {
-        const heroSection = document.querySelector(".hero");
-        const heroSectionRect = heroSection.getBoundingClientRect();
-        const scrollTop = window.scrollY || document.documentElement.scrollTop;
-        
-        if (scrollTop > heroSectionRect.top && !heroAnimationPlayed) {
-            heroAnimationPlayed = true;
-            gsap.to(".hero", { backgroundColor: "black", duration: 2 });
+    const heroTimeline = gsap.timeline({
+        scrollTrigger: {
+            trigger: ".hero",
+            start: "top top",
+            end: "bottom top",
+            scryb: 1,
+            pin: true,
+            pinSpacing: true,
+            toggleActions: "play none none none"
         }
     });
+
+    heroTimeline.to(".hero", { backgroundColor: "black", duration: 2 });
 
 
 
