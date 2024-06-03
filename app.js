@@ -175,7 +175,6 @@ document.addEventListener("DOMContentLoaded", () => {
             trigger: ".hero",
             start: "top top",
             end: "bottom top",
-            scrub: 1,
             pin: true,
             pinSpacing: true,
             toggleActions: "play none none none"
