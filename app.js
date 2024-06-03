@@ -170,17 +170,15 @@ document.addEventListener("DOMContentLoaded", () => {
     
 
     // Create a timeline for the Hero Section
-    const heroTimeline = gsap.timeline({
-        scrollTrigger: {
-            trigger: ".hero",
-            start: "top top",
-            end: "bottom top",
-            pin: true,
-            pinSpacing: true,
-            toggleActions: "play none none none"
-        }
+   const heroTimeline = gsap.timeline({
+    scrollTrigger: {
+        trigger: ".hero",
+        start: "top top",
+        end: "bottom top",
+        toggleActions: "play none none none"
+    }
     });
-
+    
     heroTimeline.to(".hero", { backgroundColor: "black", duration: 2 });
 
 
