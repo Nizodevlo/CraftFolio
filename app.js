@@ -178,7 +178,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 1,
             pin: true,
             pinSpacing: true,
-            once: true,
+            toggleActions: "play none none none",
         }
     });
 
@@ -216,7 +216,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 2,
             pin: true,
             pinSpacing: true,
-            once: true,,
+            toggleActions: "play none none none",,
         }
     });
 
@@ -256,7 +256,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 1,
             pin: true,
             pinSpacing: true,
-            once: true,
+            toggleActions: "play none none none",
         }
     });
 
@@ -301,7 +301,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 1,
             pin: true,
             pinSpacing: true,
-            once: true,
+            toggleActions: "play none none none",
         }
     });
 
@@ -345,7 +345,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 1,
             pin: true,
             pinSpacing: true,
-            once: true,
+            toggleActions: "play none none none",
         }
     });
     
