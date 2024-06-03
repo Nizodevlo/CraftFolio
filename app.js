@@ -350,7 +350,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 1,
             pin: true,
             pinSpacing: true,
-            toggleActions: "restart pause resume reset",
+            toggleActions: "play none none none",
             once: true
         }
     });
