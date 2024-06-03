@@ -216,7 +216,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 2,
             pin: true,
             pinSpacing: true,
-            toggleActions: "play none none reverse",
+            toggleActions: "play pause resume reset",
         }
     });
 
@@ -256,7 +256,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 2,
             pin: true,
             pinSpacing: true,
-            toggleActions: "play none none reverse",
+            toggleActions: "play pause resume reset",
         }
     });
 
@@ -302,9 +302,6 @@ document.addEventListener("DOMContentLoaded", () => {
             pin: true,
             pinSpacing: true,
             toggleActions: "play pause resume reset",
-            onEnd: function() {
-                pricingTimeline.pause(); // Pause the timeline when it reaches the end
-            }
         }
     });
 
@@ -348,7 +345,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 2,
             pin: true,
             pinSpacing: true,
-            toggleActions: "play none none reverse",
+            toggleActions: "play pause resume reset",
         }
     });
     
