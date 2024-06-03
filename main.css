@@ -188,7 +188,7 @@ section {
 }
 
 .about .title {
-    padding: 100px;
+    padding: 50px;
 }
 
 .about h1 {
@@ -199,8 +199,8 @@ section {
 }
 
 .about img {
-    width: auto;
-    height: 450px;
+    width: 350px;
+    height: auto;
     overflow: hidden !important;
 }
 
