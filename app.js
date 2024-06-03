@@ -178,7 +178,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 1,
             pin: true,
             pinSpacing: true,
-            toggleActions: "play none none none",
+            toggleActions: "play reverse none reverse",
         }
     });
 
@@ -216,7 +216,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 2,
             pin: true,
             pinSpacing: true,
-            toggleActions: "play none none none",,
+            toggleActions: "play reverse none reverse",,
         }
     });
 
@@ -256,7 +256,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 1,
             pin: true,
             pinSpacing: true,
-            toggleActions: "play none none none",
+            toggleActions: "play reverse none reverse",
         }
     });
 
@@ -301,7 +301,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 1,
             pin: true,
             pinSpacing: true,
-            toggleActions: "play none none none",
+            toggleActions: "play reverse none reverse",
         }
     });
 
@@ -345,7 +345,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 1,
             pin: true,
             pinSpacing: true,
-            toggleActions: "play none none none",
+            toggleActions: "play reverse none reverse",
         }
     });
     
