@@ -73,7 +73,7 @@ header.scrolling-up {
     z-index: 999;
     height: 100vh;
     width: 100%;
-    background-color: brown;
+    background-color: gray;
     display: none;
     box-shadow: 0 0 20px 1px black;
 }
