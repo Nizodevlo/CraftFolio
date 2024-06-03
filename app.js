@@ -175,17 +175,15 @@ document.addEventListener("DOMContentLoaded", () => {
             trigger: ".hero",
             start: "top top",
             end: "bottom top",
-            scrub: 1,
-            pin: true,
-            pinSpacing: true,
-            toggleActions: "restart pause resume reset"
+            toggleActions: "restart pause resume reset",
+            once: true,
         }
     });
 
-    heroTimeline.from(".hero h1", { y: -100, opacity: 0, duration: 2 });
-    heroTimeline.from(".hero p", { y: 100, opacity: 0, duration: 2 }, "-=1");
-    heroTimeline.from(".hero img", { x: 100, opacity: 0, duration: 2 }, "-=5");
-    heroTimeline.to(".hero", { backgroundColor: "black", duration: 2 });
+    heroTimeline.from(".hero h1", { y: -100, opacity: 0, duration: 0.25 });
+    heroTimeline.from(".hero p", { y: 100, opacity: 0, duration: 0.5 });
+    heroTimeline.from(".hero img", { x: 100, opacity: 0, duration: 0.5 });
+    heroTimeline.to(".hero", { backgroundColor: "black", duration: 1 });
 
 
 
@@ -220,6 +218,7 @@ document.addEventListener("DOMContentLoaded", () => {
             pin: true,
             pinSpacing: true,
             toggleActions: "restart pause resume reset",
+            once: true,
         }
     });
 
@@ -259,7 +258,8 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 1,
             pin: true,
             pinSpacing: true,
-            toggleActions: "restart pause resume reset"
+            toggleActions: "restart pause resume reset",
+            once: true,
         }
     });
 
@@ -304,11 +304,13 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 1,
             pin: true,
             pinSpacing: true,
-            toggleActions: "play pause resume reset"
+            toggleActions: "play pause resume reset",
+            once: true,
         }
     });
 
     // first card
+    pricingTimeline.from(".pricing .offre", { y: -100, opacity: 0, duration: 1 });
     pricingTimeline.from(".pricing .card:nth-child(1)", { y: -100, opacity: 0, duration: 1 });
     pricingTimeline.from(".pricing .card:nth-child(1) h3", { y: -100, opacity: 0, duration: 1 });
     pricingTimeline.from(".pricing .card:nth-child(1) .price", { y: 100, opacity: 0, duration: 1 }, "-=0.5");
@@ -348,7 +350,8 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 1,
             pin: true,
             pinSpacing: true,
-            toggleActions: "restart pause resume reset"
+            toggleActions: "restart pause resume reset",
+            once: true
         }
     });
     
