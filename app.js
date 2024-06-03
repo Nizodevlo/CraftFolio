@@ -178,7 +178,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scryb: 1,
             pin: true,
             pinSpacing: true,
-            toggleActions: "play none none none"
+            toggleActions: "play none none reverse"
         }
     });
 
