@@ -182,9 +182,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    heroTimeline.from(".hero h1", { y: -100, opacity: 0, duration: 2 });
-    heroTimeline.from(".hero p", { y: 100, opacity: 0, duration: 2 }, "-=1");
-    heroTimeline.from(".hero img", { x: 100, opacity: 0, duration: 2 }, "-=5");
     heroTimeline.to(".hero", { backgroundColor: "black", duration: 2 });
 
 
