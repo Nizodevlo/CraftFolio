@@ -178,7 +178,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 1,
             pin: true,
             pinSpacing: true,
-            toggleActions: "restart pause resume reset"
+            toggleActions: "restart none none none"
         }
     });
 
@@ -219,7 +219,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 2,
             pin: true,
             pinSpacing: true,
-            toggleActions: "restart pause resume reset",
+            toggleActions: "restart none none none",
         }
     });
 
@@ -259,7 +259,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 1,
             pin: true,
             pinSpacing: true,
-            toggleActions: "restart pause resume reset"
+            toggleActions: "restart none none none"
         }
     });
 
@@ -304,7 +304,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 1,
             pin: true,
             pinSpacing: true,
-            toggleActions: "play pause resume reset"
+            toggleActions: "play none none none"
         }
     });
 
@@ -348,7 +348,7 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: 1,
             pin: true,
             pinSpacing: true,
-            toggleActions: "restart pause resume reset"
+            toggleActions: "restart none none none"
         }
     });
     
