@@ -183,7 +183,6 @@ document.addEventListener("DOMContentLoaded", () => {
     heroTimeline.from(".hero h1", { y: -100, opacity: 0, duration: 0.25 });
     heroTimeline.from(".hero p", { y: 100, opacity: 0, duration: 0.5 });
     heroTimeline.from(".hero img", { x: 100, opacity: 0, duration: 0.5 });
-    heroTimeline.to(".hero", { backgroundColor: "black", duration: 1 });
 
 
 
